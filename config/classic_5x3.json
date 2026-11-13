@@ -1,0 +1,45 @@
+{
+  "name": "Classic Fruits 5x3",
+  "rows": 3,
+  "symbols": [
+    {"name": "WILD", "kind": "wild"},
+    {"name": "SCATTER", "kind": "scatter"},
+    {"name": "SEVEN"},
+    {"name": "BAR"},
+    {"name": "BELL"},
+    {"name": "PLUM"},
+    {"name": "ORANGE"},
+    {"name": "LEMON"},
+    {"name": "CHERRY"}
+  ],
+  "paylines": [
+    [1, 1, 1, 1, 1],
+    [0, 0, 0, 0, 0],
+    [2, 2, 2, 2, 2],
+    [0, 1, 2, 1, 0],
+    [2, 1, 0, 1, 2],
+    [0, 0, 1, 2, 2],
+    [2, 2, 1, 0, 0],
+    [1, 0, 0, 0, 1],
+    [1, 2, 2, 2, 1],
+    [1, 0, 1, 2, 1]
+  ],
+  "linePays": {
+    "WILD": {"3": 50, "4": 250, "5": 1000},
+    "SEVEN": {"3": 30, "4": 120, "5": 600},
+    "BAR": {"3": 20, "4": 75, "5": 300},
+    "BELL": {"3": 12, "4": 50, "5": 200},
+    "PLUM": {"3": 9, "4": 28, "5": 110},
+    "ORANGE": {"3": 4, "4": 16, "5": 70},
+    "LEMON": {"3": 4, "4": 16, "5": 70},
+    "CHERRY": {"3": 4, "4": 12, "5": 50}
+  },
+  "scatterPays": {"3": 2, "4": 10, "5": 50},
+  "reels": [
+    ["LEMON", "BAR", "WILD", "LEMON", "BAR", "SEVEN", "CHERRY", "PLUM", "SCATTER", "BELL", "SCATTER", "ORANGE", "SEVEN", "ORANGE", "CHERRY", "ORANGE", "BAR", "LEMON", "ORANGE", "CHERRY", "LEMON", "BELL", "PLUM", "LEMON", "CHERRY", "PLUM", "WILD", "ORANGE", "BELL", "CHERRY", "PLUM", "BELL"],
+    ["BELL", "SCATTER", "BELL", "LEMON", "ORANGE", "PLUM", "CHERRY", "SEVEN", "WILD", "BAR", "ORANGE", "WILD", "BELL", "ORANGE", "CHERRY", "LEMON", "PLUM", "LEMON", "PLUM", "BAR", "SCATTER", "CHERRY", "LEMON", "SEVEN", "BELL", "CHERRY", "BAR", "ORANGE", "CHERRY", "ORANGE", "LEMON", "PLUM"],
+    ["CHERRY", "BELL", "SCATTER", "PLUM", "BELL", "LEMON", "BAR", "LEMON", "CHERRY", "PLUM", "BELL", "SEVEN", "WILD", "BAR", "ORANGE", "SCATTER", "ORANGE", "PLUM", "ORANGE", "CHERRY", "WILD", "BAR", "CHERRY", "SEVEN", "ORANGE", "LEMON", "PLUM", "ORANGE", "CHERRY", "LEMON", "BELL", "LEMON"],
+    ["PLUM", "ORANGE", "PLUM", "CHERRY", "LEMON", "CHERRY", "BELL", "ORANGE", "PLUM", "BAR", "SEVEN", "BELL", "WILD", "CHERRY", "SEVEN", "ORANGE", "LEMON", "CHERRY", "ORANGE", "PLUM", "BELL", "LEMON", "SCATTER", "BELL", "BAR", "WILD", "LEMON", "ORANGE", "BAR", "CHERRY", "LEMON", "SCATTER"],
+    ["CHERRY", "LEMON", "BELL", "ORANGE", "CHERRY", "PLUM", "LEMON", "CHERRY", "SEVEN", "ORANGE", "WILD", "BELL", "PLUM", "SCATTER", "ORANGE", "LEMON", "BELL", "PLUM", "LEMON", "BAR", "WILD", "SCATTER", "BELL", "BAR", "ORANGE", "CHERRY", "BAR", "LEMON", "PLUM", "CHERRY", "SEVEN", "ORANGE"]
+  ]
+}
